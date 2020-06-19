@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 1em;
+}
+nav li {
+    margin-right: 1em;
+}
+
+.special-headline {
+    color: hotpink;
+}
+
+.rounded-full.rounded-full {
+    border-radius: 50%;
+}
+
+.rounded-img {
+    border-radius: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+}
+
+#my-id {
+    color: red;
+}
+
+img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.35) ;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.profile-picture {
+    float: right;
+    width: 25%;
+    margin: 0 0 1rem 1rem;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    width: 250px;
+}
+.social-links li {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 25%;
+}
+.social-links img {
+    border-radius: 24%;
+}
