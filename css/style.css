@@ -1,5 +1,9 @@
 body {
     font-family: sans-serif;
+    text-align: center;
+}
+main {
+    min-height: calc(100vh - 225px);
 }
 nav ul {
     display: flex;
@@ -44,17 +48,21 @@ img {
 }
 
 .profile-picture {
-    float: right;
+    float: none;
     width: 25%;
     min-width: 150px;
-    margin: 0 0 1rem 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .social-links {
     display: flex;
     list-style: none;
+    justify-content: center;
     padding-left: 0;
     width: 250px;
+    margin: 0 auto;
 }
 .social-links li {
     margin-bottom: 1rem;
