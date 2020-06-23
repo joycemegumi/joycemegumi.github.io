@@ -11,6 +11,10 @@ nav li {
     margin-right: 1em;
 }
 
+nav a {
+    color: #000;    
+}
+
 .special-headline {
     color: hotpink;
 }
