@@ -1,9 +1,22 @@
-body {
-    font-family: sans-serif;
-    text-align: center;
+* {
+    background-color: white ;
 }
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color: #c79288
+}
+
+.center-title {
+    justify-content: center;
+}
+
 main {
+    text-align: center;    
     min-height: calc(100vh - 225px);
+    max-width: 600px;
+    margin: auto;
 }
 nav ul {
     display: flex;
@@ -11,16 +24,27 @@ nav ul {
     padding-left: 0;
     margin-top: 1em;
 }
+
+p {
+    text-align: left;
+    margin: 10px auto 10px auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+a.no_underline {
+    color:#c79288;
+    padding: 0.05px;
+    text-decoration: none;
+}
+
 nav li {
     margin-right: 1em;
 }
 
 nav a {
     color: #000;    
-}
-
-.special-headline {
-    color: hotpink;
 }
 
 .rounded-full.rounded-full {
@@ -34,10 +58,6 @@ nav a {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-#my-id {
-    color: red;
 }
 
 img {
